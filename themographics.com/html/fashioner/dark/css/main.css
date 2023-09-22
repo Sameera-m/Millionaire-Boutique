@@ -1008,7 +1008,7 @@ body.home .fashioner{
 	justify-content: center;
 }
 .hot-deals .container .col .product1{
-	padding: 2rem;
+	padding: 1.5rem;
 text-align: center;
 }
 
@@ -1020,8 +1020,8 @@ text-align: center;
     
 }
 .hot-deals .container .col img{
-	height: 17rem;
-	width: 17rem;
+	height: 20rem;
+	width: 20rem;
 	border-radius: 50%;
 	transition: all linear 0.8s;
 }

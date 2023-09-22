@@ -93,6 +93,7 @@ ul { margin-bottom: 0px; }
 figure {
 	margin: 0;
 	position: relative;
+ 
 }
 img {
 	max-width: 100%;
@@ -1348,10 +1349,12 @@ text-align: center;
 .brands img{
 	height: 25rem;
 	width: 20rem;
-	border-radius: 2rem;
 }
 .brands img:hover{
-	transform:scale(1.03);
+	border-radius: 2rem;
+	border: 1px solid;
+
+	transform:scale(1.1);
 	box-shadow: 2px 2px 6px gainsboro;
 }
 .barand .brand-box{
@@ -2587,7 +2590,8 @@ input[type="checkbox"], input[type="radio"]{
 }
 .products .product figure img{
 	display:block;
-	width:100%;
+	width:25rem;
+	height: 35rem;
 	height:auto;
 	border-radius: 5rem 0;
 }

@@ -201,7 +201,7 @@ input[type="color"],
 }
 .accordion-heading.active,
 .accordion-heading:hover{
-	background:#000;
+	background:#eb348f;
 	color:#fff;
 }
 .accordion-heading.active h4 a,
@@ -331,7 +331,7 @@ input[type="color"],
 }
 #carousel .product-box{
 	float:left;
-	width:272px;
+	/* width:272px; */
 	-webkit-transition:none;
 	-moz-transition:none;
 	-o-transition:none;
@@ -345,6 +345,8 @@ input[type="color"],
 	-moz-transition:none;
 	-o-transition:none;
 	transition:none;
+	width:25rem;
+	height: 35rem;
 }
 #pager {
 	margin:20px 0 0;
